@@ -11,6 +11,7 @@
 // components
 @import "./components/navbar";
 @import "./components/projects";
+@import "./components/loading";
 
 * {
   @apply text-gray-900 dark:text-gray-200 scroll-smooth;

@@ -9,6 +9,7 @@
   import Project from "./page/project.vue";
   import Contact from "./page/contact.vue";
   import BackToTop from "./components/BackToTop.vue";
+  import Loading from "./components/Loading.vue";
 
   export default {
     components: {
@@ -20,6 +21,7 @@
       Project,
       Contact,
       BackToTop,
+      Loading,
     },
     setup() {
       const { message } = welcome();
@@ -46,6 +48,7 @@
 </script>
 
 <template>
+  <Loading />
   <div :class="{ dark: darkMode }">
     <div class="layout min-h-screen bg-slate-50 dark:bg-gray-900">
       <Navbar :darkMode="darkMode" @isDarkMode="setDarkMode" />

@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 .nav {
-  @apply fixed w-full bg-slate-50/5 dark:bg-gray-900/50 border-b border-transparent transition-all duration-300 z-50;
+  @apply fixed w-full bg-slate-50/5 dark:bg-gray-900/50 border-b border-transparent transition-all duration-300 z-40;
 }
 .nav.affix {
   @apply border-slate-200 dark:border-gray-800;
@@ -18,11 +18,20 @@
     -webkit-backdrop-filter: saturate(1) blur(10px);
             backdrop-filter: saturate(1) blur(10px);
   }
+  .nav-menu .nav-menu-link {
+    @apply hidden;
+  }
+  .nav-menu .hide-nav-menu {
+    @apply hidden w-max mx-auto my-7 p-4;
+  }
   .nav-menu.isExpand {
     @apply h-screen overflow-auto pt-8;
   }
-  .nav-menu .hide-nav-menu {
-    @apply w-max mx-auto my-7 p-4;
+  .nav-menu.isExpand .nav-menu-link {
+    @apply flex;
+  }
+  .nav-menu.isExpand .hide-nav-menu {
+    @apply block;
   }
 }
 .nav-menu-link {
@@ -66,6 +75,12 @@
     font-size: 10px;
     padding: 2px 8px;
   }
+}
+
+.loading {
+  @apply fixed inset-0 z-50 flex items-center justify-center;
+  -webkit-backdrop-filter: saturate(1) blur(10px);
+          backdrop-filter: saturate(1) blur(10px);
 }
 
 * {
