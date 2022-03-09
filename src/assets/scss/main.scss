@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// font
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&;display=swap");
+
+// variable
+@import "./variable";
+
+// components
+@import "./components/navbar";
+@import "./components/projects";
+
+* {
+  @apply text-gray-900 dark:text-gray-200 scroll-smooth;
+  font-family: theme("fontFamily.default");
+}
+
+body {
+  &::-webkit-scrollbar-track {
+    @apply bg-slate-300;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-slate-400 rounded-full;
+  }
+
+  &::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  &.dark-theme {
+    &::-webkit-scrollbar-track {
+      @apply bg-gray-800;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      @apply bg-gray-700;
+    }
+  }
+}
+
+svg {
+  @apply fill-gray-900 dark:fill-gray-200 transition-all;
+
+  &.theme {
+    @apply fill-amber-400 dark:fill-amber-400;
+  }
+}
+.contact-list:hover svg {
+  @apply fill-amber-400 dark:fill-amber-400;
+}
+
+.animation-scroll-down {
+  .arrow-down {
+    animation: animation_scroll_down 3s ease infinite;
+  }
+}
+
+@keyframes animation_scroll_down {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
