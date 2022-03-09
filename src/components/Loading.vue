@@ -14,7 +14,7 @@
         setTimeout(() => {
           loading.value = false;
           document.querySelector("body").classList.remove("overflow-hidden");
-        }, 2000);
+        }, 1000);
       });
 
       return { loading };
