@@ -1,0 +1,34 @@
+.nav {
+  @apply fixed w-full bg-slate-50/5 dark:bg-gray-900/50 border-b border-transparent transition-all duration-300 z-50;
+
+  &.affix {
+    @apply border-slate-200 dark:border-gray-800;
+
+    &:not(.menu-isExpand) {
+      backdrop-filter: $backdrop-blur;
+    }
+  }
+
+  &-menu {
+    @screen md-down {
+      @apply fixed inset-0 bg-slate-100/50 dark:bg-gray-800/60 h-0 overflow-hidden transition-all duration-500 flex flex-col;
+      backdrop-filter: $backdrop-blur;
+
+      &.isExpand {
+        @apply h-screen overflow-auto pt-8;
+      }
+
+      .hide-nav-menu {
+        @apply w-max mx-auto my-7 p-4;
+      }
+    }
+
+    &-link {
+      @apply px-5 capitalize hover:text-amber-600 dark:hover:text-amber-400 transition-all relative h-14 inline-flex items-center justify-center before:absolute before:h-0 before:w-auto before:bottom-0 before:inset-x-3 before:bg-amber-500 before:transition-all hover:before:h-1;
+
+      @screen md-down {
+        @apply text-lg hover:before:h-0;
+      }
+    }
+  }
+}
