@@ -9,7 +9,7 @@
     setup() {
       const experiences = reactive([
         {
-          date: "Jul 2021 - Present",
+          date: "Jul 2020 - Present",
           name: "E-Commerce Solution Co,. Ltd., Bangkok, Thailand.",
           sub_name: "",
           job_type: "Frontend developer",
