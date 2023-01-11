@@ -3,6 +3,7 @@
   import Title from "../components/Title.vue";
   import makeupImg from "../assets/images/project/makeup.png";
   import projectImg from "../assets/images/project/project.png";
+  import facebookUi from "../assets/images/project/facebook-ui.png"
 
   export default {
     components: {
@@ -10,14 +11,21 @@
     },
     setup() {
       const projects = reactive([
+      {
+          title: "Facebook Ui",
+          description: "Mockup facebook ui",
+          tool: ["Vue", "Nuxt", "JavaScript", "CSS", "Tailwind"],
+          link: "https://kotchakorn-facebook-ui.netlify.app",
+          profile: facebookUi,
+        },
         {
           title: "Makeup Project",
           description: "Provide information about cosmetic products.",
-          tool: ["Nuxt", "JavaScript", "Sass & CSS", "Tailwind", "design"],
+          tool: ["Vue", "Nuxt", "JavaScript", "Sass & CSS", "Tailwind", "design"],
           profile: makeupImg,
         },
         {
-          title: "Tracking Progress System of Project",
+          title: "Tracking Progress System Of Project",
           description: "Recording evidence from work between teachers and students.",
           tool: ["Laravel", "Vue", "JavaScript", "sass & css", "Bootstrap"],
           profile: projectImg,
@@ -31,13 +39,16 @@
 
 <template>
   <Title title="Project" />
-  <div class="flex items-center justify-center flex-col md:flex-row -mx-4">
-    <div class="w-full md:w-1/2 px-4 my-4" v-for="(project, index) in projects" :key="index">
+  <div class="flex items-center flex-col lg:flex-row -mx-4 flex-wrap">
+    <div class="w-full lg:w-1/2 px-4 my-4 flex-none" v-for="(project, index) in projects" :key="index">
       <div class="project-thumbnail shadow-xl shadow-gray-200 dark:shadow-gray-800">
         <img :src="project.profile" class="rounded-lg" />
         <div class="content">
           <p class="md:text-xl font-extrabold !text-gray-900">{{ project.title }}</p>
           <p v-if="project.description" class="!text-gray-900 md:mt-2 text-xs md:text-sm">{{ project.description }}</p>
+          <div v-if="project.link" class="md:mt-1 text-xs">
+            <a :href="project.link" target="_blank" class="!text-gray-900">{{ project.link }}</a> 
+          </div>
           <div class="tool">
             <p v-for="(tool, indexTool) in project.tool" :key="indexTool" class="font-semibold text-xs">{{ tool }}</p>
           </div>

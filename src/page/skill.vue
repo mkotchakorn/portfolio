@@ -7,7 +7,7 @@
       Title,
     },
     setup() {
-      const webSkills = reactive(["HTML", "CSS", "CSS frameworks such as bootstrap, tailwind", "Sass", "JavaScript", "Vue", "Nuxt", "jQuery", "Drupal", "Git"]);
+      const webSkills = reactive(["HTML", "CSS", "CSS frameworks such as Tailwind, Material-UI", "Sass", "JavaScript", "React", "TypeScript", "Vue", "Nuxt", "Drupal", "Git"]);
       const designSkills = reactive(["Figma", "Adobe xd"]);
       const otherSkills = reactive(["Adobe Illustrator", "Adobe InDesign", "Adobe After Effects", "Adobe Premier Pro"]);
 

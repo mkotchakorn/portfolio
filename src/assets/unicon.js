@@ -16,6 +16,7 @@ import {
   uniEditAlt,
   uniAngleDown,
   uniExternalLinkAlt,
+  uniLinkedin
 } from "vue-unicons/dist/icons";
 
 Unicon.add([
@@ -35,6 +36,7 @@ Unicon.add([
   uniEditAlt,
   uniAngleDown,
   uniExternalLinkAlt,
+  uniLinkedin
 ]);
 
 export default Unicon;

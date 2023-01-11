@@ -15,8 +15,7 @@
           <span class="font-normal text-lg block md:inline-block">- <span class="pl-2">but call me Mill</span></span>
         </p>
         <p class="text-sm">
-          My name is Kotchakorn Mawattananukool. I'm a Frontend Developer, who designs and builds a responsive website
-          with JS.
+          My name is Kotchakorn Mawattananukool. I am a Frontend Developer with over two years of experience working with javascript, who designs and builds a responsive website.
         </p>
         <p class="pt-4">I'm glad you're here.</p>
       </div>

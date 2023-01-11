@@ -24,6 +24,9 @@
   </div>
 
   <div class="mt-6 md:ml-9 flex items-center md:w-1/3 lg:w-3/12 xl:w-1/5 border-t border-slate-300 dark:border-gray-700">
+    <a href="https://linkedin.com/in/mkotchakorn" target="_blank" class="py-7 mr-6 contact-list">
+      <Unicon name="linkedin" width="20" height="20" />
+    </a>
     <a href="https://github.com/mill1704" target="_blank" class="py-7 mr-6 contact-list">
       <Unicon name="github-alt" width="20" height="20" />
     </a>
@@ -32,5 +35,3 @@
     </a>
   </div>
 </template>
-
-<style></style>

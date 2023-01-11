@@ -9,13 +9,22 @@
     setup() {
       const experiences = reactive([
         {
-          date: "Jul 2020 - Present",
+          date: "Apr 2022 - Present",
           name: "E-Commerce Solution Co,. Ltd., Bangkok, Thailand.",
           sub_name: "",
-          job_type: "Frontend developer",
+          job_type: "Frontend developer (React-Typescript)",
+          responsibility: [
+            "Develop a responsive website for dental clinic management."
+          ],
+        },
+        {
+          date: "Jul 2020 - Mar 2022",
+          name: "E-Commerce Solution Co,. Ltd., Bangkok, Thailand.",
+          sub_name: "",
+          job_type: "Frontend developer (Vue)",
           responsibility: [
             "Worked with a team to build an e-commerce website.",
-            "Work with a variety of different languages and frameworks such as JavaScript, Vue, Nuxt, Sass, Bootstrap, Jquery.",
+            "Work with a variety of different languages and frameworks.",
           ],
         },
         {
