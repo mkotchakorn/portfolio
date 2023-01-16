@@ -4,6 +4,7 @@
   import makeupImg from "../assets/images/project/makeup.png";
   import projectImg from "../assets/images/project/project.png";
   import facebookUi from "../assets/images/project/facebook-ui.png"
+  import hallOfInspiration from "../assets/images/project/hall-of-inspiration.png"
 
   export default {
     components: {
@@ -11,7 +12,14 @@
     },
     setup() {
       const projects = reactive([
-      {
+        {
+          title: "Hall of Inspiration Virtual Tour",
+          // description: "Mockup facebook ui",
+          tool: ["React", "JavaScript", "CSS", "Tailwind"],
+          link: "https://hallofinspiration.maefahluang.org",
+          profile: hallOfInspiration,
+        },
+        {
           title: "Facebook Ui",
           description: "Mockup facebook ui",
           tool: ["Vue", "Nuxt", "JavaScript", "CSS", "Tailwind"],
