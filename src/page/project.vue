@@ -64,7 +64,7 @@
     </div>
   </div>
   <a
-    href="https://github.com/mill1704?tab=repositories"
+    href="https://github.com/mkotchakorn"
     target="_blank"
     class="flex items-center justify-center w-max mt-9 mx-auto contact-list hover:text-amber-400 hover:dark:text-amber-400 transition-all"
   >
