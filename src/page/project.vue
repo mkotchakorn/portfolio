@@ -14,8 +14,7 @@
       const projects = reactive([
         {
           title: "Hall of Inspiration Virtual Tour",
-          // description: "Mockup facebook ui",
-          tool: ["React", "JavaScript", "CSS", "Tailwind"],
+          tool: ["React", "JavaScript", "CSS", "Material-UI", "Tailwind"],
           link: "https://hallofinspiration.maefahluang.org",
           profile: hallOfInspiration,
         },
