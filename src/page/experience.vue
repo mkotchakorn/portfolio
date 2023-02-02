@@ -10,21 +10,25 @@
       const experiences = reactive([
         {
           date: "Apr 2022 - Present",
-          name: "E-Commerce Solution Co,. Ltd., Bangkok, Thailand.",
+          name: "KNACX Corporation Co., Ltd., Bangkok, Thailand.",
           sub_name: "",
           job_type: "Frontend developer (React-Typescript)",
           responsibility: [
-            "Develop a responsive website for dental clinic management."
+            "Develop a responsive website for dental clinic management.",
+            "Assessed UX and UI designs for technical feasibility.",
+            "Collaborated with product team members to implement new feature developments."
           ],
         },
         {
           date: "Jul 2020 - Mar 2022",
-          name: "E-Commerce Solution Co,. Ltd., Bangkok, Thailand.",
+          name: "E-Commerce Solution Co., Ltd., Bangkok, Thailand.",
           sub_name: "",
           job_type: "Frontend developer (Vue)",
           responsibility: [
             "Worked with a team to build an e-commerce website.",
-            "Work with a variety of different languages and frameworks.",
+            "Building websites that are responsive and usable.",
+            "Bringing mock-ups to life using js",
+            "Collaborating closely with the team to support projects during all phases of delivery."
           ],
         },
         {
