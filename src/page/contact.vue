@@ -30,8 +30,8 @@
     <a href="https://github.com/mkotchakorn" target="_blank" class="py-7 mr-6 contact-list">
       <Unicon name="github-alt" width="20" height="20" />
     </a>
-    <a href="https://line.me/ti/p/~cmmill" target="_blank" class="py-7 contact-list">
+    <!-- <a href="https://line.me/ti/p/~cmmill" target="_blank" class="py-7 contact-list">
       <Unicon name="line" width="20" height="20" />
-    </a>
+    </a> -->
   </div>
 </template>

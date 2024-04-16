@@ -54,13 +54,13 @@
       <Navbar :darkMode="darkMode" @isDarkMode="setDarkMode" />
       <div class="container">
         <Highlight />
-        <Education />
-        <div id="skill" class="pt-14">
-          <Skill />
-        </div>
         <div id="experience" class="pt-14">
           <Experience />
         </div>
+        <div id="skill" class="pt-14">
+          <Skill />
+        </div>
+        <Education />
         <div id="project" class="pt-14">
           <Project />
         </div>

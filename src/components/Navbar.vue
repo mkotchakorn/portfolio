@@ -15,7 +15,7 @@
       const affix = ref("");
       const setWebMode = UseToggle(darkMode);
       const setNavMenu = UseToggle(isExpand);
-      const menus = ref(["skill", "experience", "project", "contact"]);
+      const menus = ref(["experience", "skill", "project", "contact"]);
       const toggleDarkMode = () => {
         setWebMode.isToggle();
         context.emit("isDarkMode", darkMode.value);

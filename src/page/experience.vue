@@ -9,40 +9,50 @@
     setup() {
       const experiences = reactive([
         {
-          date: "Apr 2022 - Present",
-          name: "KNACX Corporation Co., Ltd., Bangkok, Thailand.",
+          date: "May 2023 - Present",
+          name: "Orangecap Innovation Co., Ltd., Bangkok, Thailand.",
           sub_name: "",
-          job_type: "Frontend developer (React-Typescript)",
+          job_type: "Frontend developer (website and mobile)",
+          responsibility: [
+            "Write clean and efficient code that delivers a seamless user experience across web, mobile (iOS and Android), and desktop applications, utilizing appropriate frameworks and libraries for each platform.",
+            "Design, develop, and implement full-fledged software applications.",
+            "Collaborate with designers to ensure a user-friendly and intuitive user experience."
+          ],
+        },
+        {
+          date: "April 2022 - May 2023",
+          name: "KNACX Corporation Co., Ltd. Bangkok, Thailand.",
+          sub_name: "",
+          job_type: "Frontend developer",
           responsibility: [
             "Develop a responsive website for dental clinic management.",
-            "Assessed UX and UI designs for technical feasibility.",
-            "Collaborated with product team members to implement new feature developments."
+            "Evaluated UX/UI designs for technical practicality.",
+            "Partnered with the product team to implement new feature developments."
           ],
         },
         {
-          date: "Jul 2020 - Mar 2022",
-          name: "E-Commerce Solution Co., Ltd., Bangkok, Thailand.",
+          date: "July 2020 - March 2022",
+          name: "E-Commerce Solution Co., Ltd. Bangkok, Thailand.",
           sub_name: "",
-          job_type: "Frontend developer (Vue)",
+          job_type: "Frontend Developer",
           responsibility: [
-            "Worked with a team to build an e-commerce website.",
-            "Building websites that are responsive and usable.",
-            "Bringing mock-ups to life using js",
-            "Collaborating closely with the team to support projects during all phases of delivery."
+            "Contributed to e-commerce website development.",
+            "Developed responsive and user-friendly websites.",
+            "Collaborated with the team to support projects throughout all phases until completion."
           ],
         },
         {
-          date: "Jun 2018 - Jul 2018 ( 2 mths. )",
-          name: "Refinn International Dot Com Co., Ltd., Bangkok, Thailand.",
+          date: "June 2018 - July 2018 (2 months)",
+          name: "Refinn International Dot Com Co., Ltd. Bangkok, Thailand.",
           sub_name: "",
-          job_type: "Frontend developer (Internship)",
+          job_type: "Frontend Developer (Internship)",
           responsibility: [
-            "Worked with a team to build new feature frontend on a website with Vue and Laravel.",
+            "Worked with a team to build a new feature frontend on a website.",
             "Co-design the operation of the system within a website such as a database and a workflow.",
           ],
         },
         {
-          date: "Sep 2018 - Oct 2018 ( 2 mths. )",
+          date: "September 2018 - October 2018 (2 months)",
           name: "About Me Project Camp",
           sub_name: "(University educational guidance for high school students)",
           job_type: "Graphic design (Staff)",

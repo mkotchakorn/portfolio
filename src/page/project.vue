@@ -2,6 +2,7 @@
   import { ref, reactive } from "vue";
   import Title from "../components/Title.vue";
   import makeupImg from "../assets/images/project/makeup.png";
+  import shineHouse from "../assets/images/project/shinehouse956.png";
   import projectImg from "../assets/images/project/project.png";
   import facebookUi from "../assets/images/project/facebook-ui.png"
   import hallOfInspiration from "../assets/images/project/hall-of-inspiration.png"
@@ -12,6 +13,12 @@
     },
     setup() {
       const projects = reactive([
+        {
+          title: "Shine house 956",
+          tool: ["React", "JavaScript", "CSS", "Tailwind"],
+          link: "https://shinehouse956.com",
+          profile: shineHouse,
+        },
         {
           title: "Hall of Inspiration Virtual Tour",
           tool: ["React", "JavaScript", "CSS", "Material-UI", "Tailwind"],
@@ -25,12 +32,12 @@
           link: "https://kotchakorn-facebook-ui.netlify.app",
           profile: facebookUi,
         },
-        {
-          title: "Makeup Project",
-          description: "Provide information about cosmetic products.",
-          tool: ["Vue", "Nuxt", "JavaScript", "Sass & CSS", "Tailwind", "design"],
-          profile: makeupImg,
-        },
+        // {
+        //   title: "Makeup Project",
+        //   description: "Provide information about cosmetic products.",
+        //   tool: ["Vue", "Nuxt", "JavaScript", "Sass & CSS", "Tailwind", "design"],
+        //   profile: makeupImg,
+        // },
         {
           title: "Tracking Progress System Of Project",
           description: "Recording evidence from work between teachers and students.",
