@@ -29,7 +29,7 @@
           title: "Facebook Ui",
           description: "Mockup facebook ui",
           tool: ["Vue", "Nuxt", "JavaScript", "CSS", "Tailwind"],
-          link: "https://kotchakorn-facebook-ui.netlify.app",
+          // link: "https://kotchakorn-facebook-ui.netlify.app",
           profile: facebookUi,
         },
         // {
